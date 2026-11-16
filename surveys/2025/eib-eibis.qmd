@@ -10,12 +10,12 @@ sample: "12,033 firms"
 question: "Two questions combined: whether the firm has implemented \"Big data analytics and artificial intelligence\", and \"I would like to ask about your company's systematic use of generative AI tools to improve processes. [...] Does your company invest in these kinds of tools in any of the following areas?\""
 month: "2025-05"
 adoption-firms: 37
-adoption-firms-base: "firms that use AI and big data analytics or invest in generative AI tools, weighted by value added; EIB reports it as firms using generative AI. Not comparable with the 2026 wave"
+adoption-firms-base: "EIB measure of firms using generative AI, built from a big data and AI question and a generative AI investment question; weighted by value added. Not comparable with the 2026 wave"
 coverage: eu27
 chart-label: "EIBIS"
 aim: "To track firms' investment activity, financing needs and obstacles to investment across the EU. Generative AI was added as part of the section on digital technologies."
 ---
 
-![](../../figures/eibis-genai.svg){fig-alt="Firms using AI and big data analytics or investing in generative AI in 2025, weighted by value added: 37% in the EU, 36% in the United States."}
+![](../../figures/eibis-genai.svg){fig-alt="Firms using generative AI in 2025 as measured by the EIB, weighted by value added: 37% in the EU, 36% in the United States."}
 
-The EIB reports the 37% as firms using generative AI, but its chart combines two questions: a firm counts if it has implemented AI and big data analytics, or if it invests in generative AI tools. Shares are weighted by value added, whereas Eurostat's 20% for 2025 counts each firm equally; reweighting Eurostat's data by value added gives a similar level ([Bick et al. 2026, St. Louis Fed Working Paper 2026-003B, Appendix C.1](https://doi.org/10.20955/wp.2026.003); the earlier NBER version, w34995, does not include this appendix).
+The EIB labels this chart "Firms using generative AI", and the note under it lists two questions: whether the firm uses big data analytics and artificial intelligence, and whether it invests in generative AI tools (overview, p. 27). The EIB does not say how the two answers are combined. The sector figures suggest a firm must answer yes to both: 39% of manufacturing firms and 36% of service firms are counted here, while 48% and 41% use big data and AI (p. 25), and a measure counting a yes to either question could not be lower than that. Shares are weighted by value added ("About this publication"), whereas Eurostat's 20% for 2025 counts each firm equally; Bick et al. find that reweighting Eurostat's data by value added gives levels close to the EIBIS ones ([St. Louis Fed Working Paper 2026-003B, Section 3.2 and Appendix C.1](https://doi.org/10.20955/wp.2026.003); the NBER version, w34995, does not include this comparison).
