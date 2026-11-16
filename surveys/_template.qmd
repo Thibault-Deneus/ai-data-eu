@@ -1,0 +1,28 @@
+---
+# Copy to surveys/<year>/<short-name>.qmd. Files starting with "_" are not rendered.
+title: "Short name"        # shown in the left menu: keep it to one line
+link: "https://example.org/report"
+link-text: "Publisher: title of the report"
+who: "Who ran the survey"
+when: "2025"
+where: "Countries covered"
+asked: "Workers"           # Workers | Firms | Individuals | Workers and firms
+sample: "Number of respondents"
+question: "\"The main AI question, in quotation marks if verbatim.\""
+
+aim: "One or two sentences on what the survey is for."
+
+# Adoption tracking, used for the time series on the overview page.
+# Leave out adoption-workers / adoption-firms if the survey has no such question.
+month: "2025-03"           # middle month of fieldwork
+adoption-individuals: 35   # % of all individuals using AI for any purpose
+adoption-workers: 30       # % of workers using AI at work; aim for employed people aged 21-64
+adoption-base: "workers aged 16-65"   # population the worker figure refers to
+adoption-firms: 20         # % of firms using AI
+coverage: eu27             # eu27 | euro-area | eu-subset (10+ EU countries) | few (under 10 countries)
+# series: my-survey        # same value on every wave of a repeated survey, to join the dots
+# label-pos: below        # right | above | below, if the label collides on the overview chart
+# chart-label: "Label"     # label on the overview chart, if different from title
+---
+
+![](../../figures/my-figure.svg){fig-alt="What the figure shows, with the numbers."}

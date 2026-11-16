@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - .nojekyll
+    - figures/*.svg
+
+website:
+  title: "GenAI Surveys in Europe"
+  page-navigation: true
+  search:
+    location: sidebar
+    type: textbox
+  sidebar:
+    style: floating
+    collapse-level: 2
+    contents:
+      - text: "Overview"
+        href: index.qmd
+      # One section per year (newest first). Every .qmd in the folder is listed automatically.
+      - section: "2026"
+        contents: "surveys/2026/*.qmd"
+      - section: "2025"
+        contents: "surveys/2025/*.qmd"
+      - section: "2024"
+        contents: "surveys/2024/*.qmd"
+      - text: "Country evidence"
+        href: country-evidence.qmd
+      - text: "Company surveys"
+        href: company-surveys.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    link-external-newwindow: true
+    filters:
+      - filters/survey-card.lua

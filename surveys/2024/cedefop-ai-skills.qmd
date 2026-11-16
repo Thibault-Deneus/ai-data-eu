@@ -1,0 +1,19 @@
+---
+title: "Cedefop AI skills"
+link: "https://www.cedefop.europa.eu/files/ai_and_the_eu_skilling_challenge_first_insights_from_cedefops_ai_skills_survey_-_konstantinos_pouliakas_cedefop_and_nicolas_becuwe_verian.pdf"
+link-text: "Cedefop: first insights from the AI skills survey"
+who: "Cedefop"
+when: "2024"
+where: "11 EU countries"
+asked: "Workers"
+sample: "5,342 employees aged 16 to 64"
+question: "\"To the best of your knowledge, do you or your colleagues use any AI tools or systems at your workplace?\""
+month: "2024-03"
+adoption-text: "Workplace: 28% say they or colleagues use AI at work; no personal-use rate is published"
+aim: "To measure how AI is changing skill needs at work: who works with AI, which tasks it changes, and whether workers have the skills and training to keep up. It follows up Cedefop's second European skills and jobs survey."
+---
+
+![](../../figures/cedefop-use.svg){fig-alt="28% of workers in 11 EU countries say AI is used at their workplace, 55% say it is not, 16% are not sure."}
+
+![](../../figures/cedefop-tasks.svg){fig-alt="How AI changed job tasks: 67% do some tasks faster, 41% do new or different tasks, 30% no longer do some tasks, 17% have less control."}
+

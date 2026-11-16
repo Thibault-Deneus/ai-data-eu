@@ -1,0 +1,20 @@
+---
+title: EU-OSHA OSH Pulse
+link: https://osha.europa.eu/en/publications/osh-pulse-2025-occupational-safety-and-health-era-climate-and-digital-change
+link-text: 'EU-OSHA: OSH Pulse 2025'
+who: EU-OSHA
+when: '2025'
+where: EU-27 (plus Iceland, Norway, Switzerland)
+asked: Workers
+sample: 25,688 people in employment aged 16+ in the EU
+question: '"Do you use any of the following digital technologies for your main job? [...] Software or tools powered by artificial intelligence"'
+month: 2025-04
+adoption-workers: 18
+adoption-base: employed, aged 16+
+coverage: eu27
+chart-label: OSH Pulse
+label-pos: right
+aim: "To take a quick reading of workers' safety and health, this time with a focus on climate change and digitalisation. AI appears among the digital technologies workers use in their main job."
+---
+
+![](../../figures/osh-pulse.svg){fig-alt="EU workers in April 2025: 18% use software or tools powered by AI, 6% use machines or robots that think and decide, 32% use any advanced digital technology, 27% have tasks or shifts allocated automatically."}

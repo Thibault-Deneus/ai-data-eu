@@ -1,0 +1,21 @@
+---
+title: "Bick et al."
+link: "https://www.nber.org/papers/w34995"
+link-text: "Bick, Blandin, Deming, Fuchs-Schündeln and Jessen: Mind the Gap: AI Adoption in Europe and the U.S."
+who: "Bick, Blandin, Deming, Fuchs-Schündeln and Jessen (academic survey)"
+when: "2025"
+where: "Germany, France, Italy, Netherlands, Sweden (plus UK and US)"
+asked: "Workers"
+sample: "About 5,000 per country, employed, aged 18 to 67"
+question: "\"Do you use Generative AI for your job?\""
+month: "2025-06"
+adoption-workers: 30.0
+adoption-base: "employed, aged 18-67; simple mean of the five EU countries"
+coverage: few
+series: bick
+chart-label: "Bick et al."
+label-pos: below
+aim: "To measure generative AI use at work in a way that is comparable between the United States and Europe, using the same questionnaire in every country, and to estimate the time workers save."
+---
+
+![](../../figures/bick-2025.svg){fig-alt="Share of workers using generative AI for work, May-June 2025: Netherlands 33.9%, Sweden 33.1%, Germany 30.7%, France 28%, Italy 24.5%; United Kingdom 34.7%, United States 39.4%."}

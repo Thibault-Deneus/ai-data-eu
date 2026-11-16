@@ -1,0 +1,25 @@
+---
+title: "ECB CES"
+link: "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20260826~e1c1a89999.en.html"
+link-text: "ECB Blog: AI adoption and the productivity promise: what workers report"
+who: "European Central Bank"
+when: "2024, 2025 and 2026"
+where: "11 euro area countries"
+asked: "Workers"
+sample: "Consumer Expectations Survey, about 20,000 people per month"
+question: "\"Do you personally use artificial intelligence (AI) in your work (including tools such as ChatGPT, Claude, Gemini, etc.)?\""
+month: "2026-06"
+adoption-workers: 52
+adoption-base: "employed, all ages"
+coverage: euro-area
+series: ecb-ces
+earlier-waves:
+  - {month: "2024-06", workers: 26}
+  - {month: "2025-06", workers: 41}
+chart-label: "CES"
+aim: "To monitor euro area households' expectations and economic behaviour for monetary policy. The AI questions ask workers whether they use AI in their job and how much time it saves them."
+---
+
+![](../../figures/ecb-ces-trend.svg){fig-alt="Share of euro area workers using AI in their work: 26% in 2024, 41% in 2025, 52% in 2026."}
+
+![](../../figures/ecb-ces-education.svg){fig-alt="AI use at work in 2026: 61% of highly educated workers, 37% of workers with lower education."}

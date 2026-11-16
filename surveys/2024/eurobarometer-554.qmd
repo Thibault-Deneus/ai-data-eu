@@ -1,0 +1,16 @@
+---
+title: "Eurobarometer 554"
+link: "https://doi.org/10.2767/8591026"
+link-text: "Special Eurobarometer 554: Artificial Intelligence and the future of work"
+who: "European Commission, DG EMPL"
+when: "2024"
+where: "EU-27"
+asked: "Individuals"
+sample: "26,415 people aged 15+"
+question: "\"How positively or negatively do you perceive the use of robots and Artificial Intelligence in the workplace?\""
+aim: "To gauge public attitudes towards AI and digital technology in the workplace, including support for rules on how employers use them. It measures opinions rather than use."
+---
+
+![](../../figures/eb554-views.svg){fig-alt="Share agreeing that robots and AI: speed up tasks 73%, are needed for boring jobs 66%, will destroy more jobs than they create 66%, harm communication between colleagues 61%, can make accurate decisions 53%."}
+
+![](../../figures/eb554-management.svg){fig-alt="Activities performed by digital technologies in the workplace: monitoring workers 24%, allocating tasks 22%, assessing performance 21%, hiring 18%."}

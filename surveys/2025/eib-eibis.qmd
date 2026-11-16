@@ -1,0 +1,18 @@
+---
+title: "EIB Investment Survey"
+link: "https://www.eib.org/attachments/lucalli/20250216-141025-econ-eibis-2025-eu-en.pdf"
+link-text: "EIB Investment Survey 2025: European Union overview"
+who: "European Investment Bank"
+when: "2025"
+where: "EU-27 (plus a US sample)"
+asked: "Firms"
+sample: "12,033 firms"
+question: "\"I would like to ask about your company's systematic use of generative AI tools to improve processes. [...] Does your company invest in these kinds of tools in any of the following areas?\""
+month: "2025-05"
+adoption-firms: 37
+coverage: eu27
+chart-label: "EIBIS"
+aim: "To track firms' investment activity, financing needs and obstacles to investment across the EU. Generative AI was added as part of the section on digital technologies."
+---
+
+![](../../figures/eibis-genai.svg){fig-alt="Firms using generative AI in 2025: 37% in the EU, 36% in the United States."}

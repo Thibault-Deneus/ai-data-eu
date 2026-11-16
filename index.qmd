@@ -1,0 +1,20 @@
+---
+title: "GenAI Surveys in Europe"
+toc: false
+---
+
+A list of surveys on artificial intelligence run in Europe, kept by DG EMPL and DG ECFIN of the European Commission. Surveys are grouped by year in the menu on the left; each page gives who ran the survey, when, where, whether workers or firms were asked, and the main result.
+
+```{=html}
+{{< include figures/adoption-individuals.inline.html >}}
+```
+
+```{=html}
+{{< include figures/adoption-workers.inline.html >}}
+```
+
+```{=html}
+{{< include figures/adoption-firms.inline.html >}}
+```
+
+Each dot is one survey; click a dot to open its page. Surveys define AI and their target population differently, so levels are not directly comparable across surveys.

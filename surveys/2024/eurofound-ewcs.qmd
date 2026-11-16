@@ -1,0 +1,20 @@
+---
+title: "Eurofound EWCS"
+link: "https://eurofound.shorthandstories.com/a-new-world-of-work-challenges-and-opportunities-ewcs-2024-first-findings/index.html"
+link-text: "Eurofound: EWCS 2024 first findings"
+who: "Eurofound"
+when: "2024"
+where: "35 European countries"
+asked: "Workers"
+sample: "36,644 people"
+question: "\"At work, do you use artificial intelligence that simplifies complex mental tasks or makes recommendations (e.g. ChatGPT, LLAMA, DALL-E, Midjourney, Jasper)?\""
+month: "2024-04"
+adoption-workers: 12
+adoption-base: "workers, all ages"
+coverage: eu27
+chart-label: "EWCS"
+label-pos: below
+aim: "To monitor working conditions and job quality across Europe. The AI question is one item in a long questionnaire on tasks, autonomy, work intensity and health."
+---
+
+12% of EU workers use generative AI tools at work; by country the share runs from under 3% to 25%.

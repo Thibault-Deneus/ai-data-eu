@@ -1,0 +1,23 @@
+---
+title: "ECFIN consumer survey"
+link: "https://economy-finance.ec.europa.eu/publications/european-business-cycle-indicators-ai-work-europe-perceived-impacts-productivity-quality-work-and_en"
+link-text: "DG ECFIN: AI at work in Europe (European Business Cycle Indicators, Q1 2026)"
+who: "European Commission, DG ECFIN"
+when: "2026"
+where: "18 EU Member States"
+asked: "Individuals"
+sample: "21,207 consumers"
+question: "\"Are you using AI technologies for your work or for personal tasks?\""
+month: "2026-03"
+adoption-individuals: 54
+adoption-workers: 34.5
+adoption-base: "employed, all ages"
+coverage: eu-subset
+chart-label: "ECFIN"
+label-pos: right
+aim: "To measure consumer confidence each month. A one-off module in early 2026 asked how people use AI and how they think it affects their productivity, quality of work and job security."
+---
+
+![](../../figures/ecfin-use.svg){fig-alt="Early 2026, 18 EU Member States: 54% of respondents use AI for any purpose; 34.5% of the employed use AI for work."}
+
+![](../../figures/ecfin-impact.svg){fig-alt="Among people using AI for work: 91% say it makes tasks faster, 41% are worried about losing their job to AI."}

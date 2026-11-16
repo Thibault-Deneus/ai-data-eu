@@ -1,0 +1,18 @@
+---
+title: EU-OSHA ESENER
+link: https://osha.europa.eu/sites/default/files/documents/first-findings-esener-2024_EN.pdf
+link-text: 'EU-OSHA: ESENER 2024 first findings'
+who: EU-OSHA
+when: '2024'
+where: EU-27 (plus Iceland, Norway, Switzerland)
+asked: Firms
+sample: 41,458 establishments with 5+ employees
+question: '"Does your establishment use any of the following digital technologies for work? [...] Machines, systems or computers that use Artificial Intelligence to perform work tasks"'
+month: 2024-07
+adoption-firms: 7
+coverage: eu27
+chart-label: ESENER
+aim: "To find out how European workplaces manage safety and health risks. AI is covered as one of several digital technologies that may create new risks for workers."
+---
+
+![](../../figures/esener.svg){fig-alt="EU establishments in 2024: 7% use machines, systems or computers that use AI, 9% allocate tasks or shifts automatically, 7% monitor workers' performance digitally; AI use is 21% in information and communication."}
