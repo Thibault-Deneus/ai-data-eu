@@ -13,11 +13,11 @@ Surveys run or commissioned by private companies. Most use online panels and loo
 
 ![](figures/aws-trend.svg){fig-alt="Share of European businesses that say they have adopted AI: 33% in 2024, 42% in 2025, 54% in 2026."}
 
-![](figures/aws-stage.svg){fig-alt="AI adopters by stage in 2026: basic 58%, intermediate 17%, advanced 22%."}
+![](figures/aws-stage.svg){fig-alt="AI adopters by stage in 2026: basic 58%, intermediate 17%, advanced 22%; the published shares sum to 97%."}
 
 ## SD Worx
 
-**[HR and Payroll Pulse 2026](https://www.sdworx.com/en-en/about-sd-worx/press/2026-07-16-seven-out-ten-european-ai-users-say-they-work-more-efficiently-thanks-ai)** · SD Worx, fieldwork by iVOX · 27 January to 20 February 2026 · Workers and firms, 16,500 employees and 5,936 HR decision-makers in 16 European countries (12 in the EU). Asks whether and how often employees use AI at work; exact wording not published.
+**[HR and Payroll Pulse 2026](https://www.sdworx.com/en-en/about-sd-worx/press/2026-07-16-seven-out-ten-european-ai-users-say-they-work-more-efficiently-thanks-ai)** · SD Worx, fieldwork by iVOX · 27 January to 20 February 2026 · Workers and firms, 16,500 employees and 5,936 HR decision-makers in 16 European countries (13 in the EU). Asks whether and how often employees use AI at work; exact wording not published.
 
 ![](figures/sdworx.svg){fig-alt="SD Worx: 29% of European employees used AI at least once a week in 2026; in 2025, 23% used AI regularly at work, up from 18% in 2024, and 38% of employers invested in AI."}
 

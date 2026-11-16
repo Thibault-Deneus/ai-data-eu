@@ -11,7 +11,7 @@ question: "\"Do you personally use artificial intelligence (AI) in your work (in
 month: "2026-06"
 adoption-workers: 52
 adoption-base: "employed, all ages"
-coverage: euro-area
+coverage: eu-subset
 series: ecb-ces
 earlier-waves:
   - {month: "2024-06", workers: 26}

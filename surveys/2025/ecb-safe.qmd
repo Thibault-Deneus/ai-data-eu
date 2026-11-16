@@ -1,22 +1,22 @@
 ---
 title: "ECB SAFE"
-link: "https://www.ecb.europa.eu/press/economic-bulletin/focus/2026/html/ecb.ebbox202602_06~c9f485c478.en.html"
-link-text: "ECB Economic Bulletin 2/2026: Adopting and investing in AI"
+link: "https://www.ecb.europa.eu/pub/pdf/scpops/ecb.op395.en.pdf"
+link-text: "ECB Occasional Paper 395: Adoption and investment in AI across the euro area"
 who: "European Central Bank"
 when: "2025"
-where: "Euro area"
+where: "12 euro area countries (AT, BE, DE, EL, ES, FI, FR, IE, IT, NL, PT, SK)"
 asked: "Firms"
-sample: "5,067 firms"
+sample: "5,067 firms in the December 2025 round; results weighted by employment"
 question: "\"How would you assess the use of AI technologies in your firm?\""
 month: "2025-12"
 adoption-firms: 38
 adoption-firms-base: "moderate or significant use; 71% including very infrequent or pilot use"
-coverage: euro-area
+coverage: eu-subset
 chart-label: "SAFE"
 label-pos: below
 aim: "To monitor the financing conditions of euro area firms for monetary policy. The AI questions were a one-off addition asking how intensively firms use AI and what holds them back."
 ---
 
-![](../../figures/ecb-safe-intensity.svg){fig-alt="Euro area firms by intensity of AI use: not in use 27%, very infrequent or pilot 33%, moderate 31%, significant 7%."}
+![](../../figures/ecb-safe-intensity.svg){fig-alt="Firms in 12 euro area countries by intensity of AI use, weighted by employment: not in use 27%, very infrequent or pilot 33%, moderate 31%, significant 7%."}
 
-![](../../figures/ecb-safe-size.svg){fig-alt="Share of euro area firms not using AI: SMEs 35%, large firms 13%."}
+![](../../figures/ecb-safe-size.svg){fig-alt="Share of firms in 12 euro area countries not using AI: SMEs 35%, large firms 13%."}

@@ -17,4 +17,4 @@ label-pos: below
 aim: "To monitor working conditions and job quality across Europe. The AI question is one item in a long questionnaire on tasks, autonomy, work intensity and health."
 ---
 
-12% of EU workers use generative AI tools at work; by country the share runs from under 3% to 25%.
+12% of EU workers use generative AI tools at work. Among EU countries the share runs from 5% or less in Greece, Italy, Portugal and Romania to at least one in five in Luxembourg, Sweden, Belgium and Denmark (Eurofound overview report, pp. 27-28). Across all 35 countries surveyed, the range is from under 3% (Bosnia-Herzegovina) to about 25% (Luxembourg).

@@ -6,7 +6,7 @@ who: "European Commission, JRC and DG EMPL"
 when: "2024-25"
 where: "EU-27"
 asked: "Workers"
-sample: "70,316 people"
+sample: "70,316 people aged 16 to 65"
 question: "\"In the last 12 months, did you use an AI-powered tool when performing your main paid job?\""
 month: "2024-12"
 adoption-workers: 30

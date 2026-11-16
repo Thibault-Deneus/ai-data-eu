@@ -10,7 +10,7 @@ sample: 12,083 firms
 question: '"I would like to ask about your company''s systematic use of generative AI tools to improve processes. [...] Does your company use these kinds of tools in any of the following areas?"'
 month: 2026-05
 adoption-firms: 67
-adoption-firms-base: generative AI; the 2025 wave asked about investing in these tools, this one about using them
+adoption-firms-base: use of generative AI tools only. The 2025 figure also counted firms using AI and big data analytics and firms investing in generative AI, so the two waves are not comparable
 coverage: eu27
 chart-label: EIBIS
 aim: "To track firms' investment activity, financing needs and obstacles to investment across the EU. The generative AI questions ask in which business areas firms use these tools."
