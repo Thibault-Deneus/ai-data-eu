@@ -11,7 +11,7 @@ question: "Does the company use AI or algorithmic management, and what drives or
 month: "2026-03"
 adoption-firms: 42
 coverage: eu27
-chart-label: "FL578"
+chart-label: "Eurobarometer"
 aim: "To identify what drives and what hinders the adoption of AI and algorithmic management in smaller companies, with a focus on workplace issues."
 ---
 

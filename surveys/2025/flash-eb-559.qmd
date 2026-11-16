@@ -11,7 +11,7 @@ question: '"Which of the following advanced technologies, if any, has your enter
 month: 2025-03
 adoption-firms: 14
 coverage: eu27
-chart-label: FL559
+chart-label: Eurobarometer
 label-pos: below
 aim: "To understand the conditions for starting and scaling up a business in the EU. AI adoption is one item in a list of advanced technologies firms may have taken up."
 ---
