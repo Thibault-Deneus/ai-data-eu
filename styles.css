@@ -70,3 +70,35 @@ svg.adoption-chart a:hover path, svg.adoption-chart a:hover use { opacity: .7; }
 /* Short 'Main aim' paragraph under the fact table */
 .survey-aim { margin: -0.6rem 0 1.8rem; }
 .survey-aim strong { color: var(--accent); }
+
+/* Sidebar header: title on one line, GitHub button underneath */
+.sidebar-header .sidebar-title { font-size: 1.12rem; white-space: nowrap; }
+.sidebar-header .sidebar-title a { letter-spacing: -0.01em; }
+.sidebar-header .sidebar-tools-main { display: block; margin: .55rem 0 0; }
+.sidebar-header .sidebar-tools-main .quarto-navigation-tool {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  padding: .22rem .7rem !important;
+  font-size: .8rem;
+  font-weight: 500;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border: 1px solid #d5e0ec;
+  border-radius: 999px;
+  text-decoration: none;
+}
+.sidebar-header .sidebar-tools-main .quarto-navigation-tool:hover { background: #e2ebf4; }
+.sidebar-header .sidebar-tools-main .quarto-navigation-tool::after { content: "GitHub repository"; }
+
+/* Pull the layout towards the left edge on wide screens. Quarto centres the sidebar and
+   text with equal flexible space on both sides (5fr / 5fr); here the left share is 1fr,
+   so most of the spare width goes to the right of the page. */
+@media (min-width: 992px) {
+  body.floating .page-columns {
+    grid-template-columns: [screen-start] 1.5em [screen-start-inset] 1fr [page-start] minmax(25px, 50px) [page-start-inset] minmax(50px, 150px) [body-start-outset] minmax(25px, 50px) [body-start] 1.5em [body-content-start] minmax(500px, calc(800px - 3em)) [body-content-end] 1.5em [body-end] minmax(25px, 50px) [body-end-outset] minmax(50px, 150px) [page-end-inset] minmax(25px, 50px) [page-end] 9fr [screen-end-inset] 1.5em [screen-end];
+  }
+  body.floating.fullcontent .page-columns {
+    grid-template-columns: [screen-start] 1.5em [screen-start-inset] 1fr [page-start] 50px [page-start-inset] minmax(50px, 150px) [body-start-outset] 50px [body-start] 1.5em [body-content-start] minmax(500px, calc(800px - 3em)) [body-content-end] 1.5em [body-end body-end-outset page-end-inset page-end] 9fr [screen-end-inset] 1.5em [screen-end];
+  }
+}

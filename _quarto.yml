@@ -13,6 +13,10 @@ website:
     type: textbox
   sidebar:
     style: floating
+    tools:
+      - icon: github
+        href: https://github.com/thimodeschouwer/ai-data-eu
+        text: "GitHub repository"
     collapse-level: 2
     contents:
       - text: "Overview"
