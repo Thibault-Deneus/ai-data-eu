@@ -13,7 +13,7 @@ adoption-firms: 20.0
 coverage: eu27
 series: eurostat-enterprises
 chart-label: "Eurostat"
-label-pos: above
+label-pos: right
 aim: "To produce official, comparable statistics on how businesses use digital technologies, for monitoring the EU's Digital Decade targets. AI is one module among several."
 ---
 

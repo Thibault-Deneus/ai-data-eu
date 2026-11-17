@@ -10,6 +10,8 @@ Run from the repository root:  python figures/make_figures.py
    only the waves of one survey (same `series`), never different surveys.
 """
 import re
+
+import numpy as np
 from datetime import date
 from pathlib import Path
 
@@ -398,6 +400,16 @@ def timeline(kind, points):
             ax.plot([p["when"] for p in group], [p["value"] for p in group], color=colour, lw=2.4,
                     alpha=0.4, solid_capstyle="round", solid_joinstyle="round", zorder=2)
 
+    # Linear trend fitted through every dot on the chart (ordinary least squares, each
+    # survey wave counted once), so it is visible which surveys sit above or below it.
+    has_trend = len(points) >= 3
+    if has_trend:
+        days = [p["when"].toordinal() for p in points]
+        slope, intercept = np.polyfit(days, [p["value"] for p in points], 1)
+        ends = [min(days) - 45, max(days) + 45]
+        ax.plot([date.fromordinal(d) for d in ends], [slope * d + intercept for d in ends],
+                color=MUTED, lw=1.6, linestyle=(0, (5, 4)), alpha=0.8, zorder=1)
+
     offsets = {"right": (10, 0), "above": (-6, 14), "below": (-6, -15)}
     for p in points:
         marker, filled, _ = COVERAGE[p["coverage"]]
@@ -437,6 +449,9 @@ def timeline(kind, points):
                mec=colour, mfc=colour if filled else "white", label=label)
         for key, (marker, filled, label) in COVERAGE.items() if key in present
     ]
+    if has_trend:
+        handles.append(Line2D([], [], color=MUTED, lw=1.6, linestyle=(0, (5, 4)), alpha=0.8,
+                              label="Linear trend, all surveys"))
     fig.legend(handles=handles, loc="center", bbox_to_anchor=(0.5, 0.890), ncol=len(handles), frameon=False,
                fontsize=9.5, labelcolor=MUTED, handletextpad=0.2, columnspacing=1.6)
     target = OUT / f"adoption-{kind}.svg"

@@ -10,8 +10,10 @@ sample: 41,458 establishments with 5+ employees
 question: '"Does your establishment use any of the following digital technologies for work? [...] Machines, systems or computers that use Artificial Intelligence to perform work tasks"'
 month: 2024-07
 adoption-firms: 7
+adoption-firms-base: "establishments with 5+ employees"
 coverage: eu27
 chart-label: ESENER
+label-pos: right
 aim: "To find out how European workplaces manage safety and health risks. AI is covered as one of several digital technologies that may create new risks for workers."
 ---
 
