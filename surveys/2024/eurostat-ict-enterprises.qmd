@@ -16,4 +16,4 @@ chart-label: "Eurostat"
 aim: "To produce official, comparable statistics on how businesses use digital technologies, for monitoring the EU's Digital Decade targets. AI is one module among several."
 ---
 
-![](../../figures/eurostat-ent-2024-size.svg){fig-alt="Share of EU enterprises using AI in 2024: all 13.5%, small 11.2%, medium 20.9%, large 41.1%."}
+![](../../figures/eurostat-ent-2024-size.svg){fig-alt="Share of EU enterprises using AI in 2024: all 13.5%, small 11.2%, medium 21%, large 41.2%."}

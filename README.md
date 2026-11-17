@@ -2,7 +2,7 @@
 
 A list of surveys on artificial intelligence run in Europe, kept by DG EMPL and DG ECFIN. Built with [Quarto](https://quarto.org).
 
-Each survey page is a source link, a short table (who / when / where / sample / question / adoption) and one or two figures with the main result. The overview page plots AI adoption by workers and by firms over time, one dot per survey.
+Each survey page is a source link, a short table (who / when / where / sample / question / adoption) and one or two figures with the main result. The overview page plots AI adoption by individuals, by workers and by firms over time, one dot per survey wave; lines join only the waves of the same survey.
 
 ## Structure
 

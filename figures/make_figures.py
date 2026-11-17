@@ -3,9 +3,11 @@
 Run from the repository root:  python figures/make_figures.py
 
 1. Result charts for the survey pages: one entry in FIGURES per chart.
-2. The two adoption time series on the overview page. These are built from the
-   YAML header of every survey page (fields: month, adoption-workers,
-   adoption-firms, eu27, series), so they update when a survey is added.
+2. The three adoption time series on the overview page (individuals, workers,
+   firms). These are built from the YAML header of every survey page (fields:
+   month, adoption-individuals, adoption-workers, adoption-firms, coverage,
+   series, earlier-waves), so they update when a survey is added. Lines join
+   only the waves of one survey (same `series`), never different surveys.
 """
 import re
 from datetime import date
@@ -37,7 +39,7 @@ FIGURES = {
     "eurostat-ent-2024-size": (
         "Enterprises using AI, by size, 2024",
         "% of enterprises with 10+ employees, EU",
-        [("*All", 13.5), ("Small (10-49)", 11.2), ("Medium (50-249)", 20.9), ("Large (250+)", 41.1)],
+        [("*All", 13.5), ("Small (10-49)", 11.2), ("Medium (50-249)", 21.0), ("Large (250+)", 41.2)],
     ),
     "eurostat-ent-size": (
         "Enterprises using AI, by size, 2025",
@@ -63,12 +65,12 @@ FIGURES = {
     # ECB SAFE, Q4 2025
     "ecb-safe-intensity": (
         "Use of AI technologies in the firm, Q4 2025",
-        "% of euro area firms",
+        "% of firms, 12 euro area countries, weighted by employment",
         [("Not in use", 27), ("Very infrequent / pilot", 33), ("Moderate use", 31), ("Significant use", 7)],
     ),
     "ecb-safe-size": (
         "Firms not using AI, by size, Q4 2025",
-        "% of euro area firms",
+        "% of firms in each size class, 12 euro area countries",
         [("SMEs", 35), ("Large firms", 13)],
     ),
     # JRC AIM-WORK 2024-25
@@ -145,13 +147,13 @@ FIGURES = {
     # Bick et al., worker survey
     "bick-2025": (
         "Workers using generative AI for work, May-June 2025",
-        "% of employed people aged 18-67",
+        "% of employed people aged 18-67 (18-63 in France)",
         [("Netherlands", 33.9), ("Sweden", 33.1), ("Germany", 30.7), ("France", 28.0), ("Italy", 24.5),
          ("United Kingdom", 34.7), ("United States", 39.4)],
     ),
     "bick-2026": (
         "Workers using generative AI for work, January-February 2026",
-        "% of employed people aged 18-67",
+        "% of employed people aged 18-67 (18-63 in France)",
         [("Sweden", 35.6), ("Netherlands", 35.6), ("Germany", 31.5), ("France", 28.1), ("Italy", 25.6),
          ("United Kingdom", 36.3), ("United States", 43.0)],
     ),
@@ -168,8 +170,8 @@ FIGURES = {
     ),
     # EIB Investment Survey 2025
     "eibis-genai": (
-        "Firms using generative AI, 2025",
-        "% of firms",
+        "Firms using AI or investing in generative AI, 2025",
+        "% of firms, weighted by value added; EIB calls this 'using generative AI'",
         [("*European Union", 37), ("United States", 36)],
     ),
     # Private surveys
@@ -180,7 +182,7 @@ FIGURES = {
     ),
     "aws-stage": (
         "How far AI adopters have got, 2026",
-        "% of businesses that have adopted AI",
+        "% of businesses that have adopted AI; shares as published, they sum to 97%",
         [("Basic stage", 58), ("Intermediate", 17), ("Advanced", 22)],
     ),
     "sdworx": (
@@ -213,7 +215,7 @@ FIGURES = {
     ),
     "bundesbank-genai": (
         "German firms using or planning to use generative AI",
-        "% of firms, answers for each year",
+        "% of firms, firm-weighted; all three years asked in Q2 2025",
         [('2024', 26), ('*2025', 44), ('2026', 56)],
     ),
     "bdi-trend": (
@@ -268,8 +270,8 @@ FIGURES = {
     ),
     "tem-barometer": (
         "AI at Finnish workplaces, autumn 2025",
-        "% of wage earners",
-        [('*AI is used at their workplace', 45), ('AI improved their own efficiency', 45), ('AI replaced some work tasks', 18)],
+        "% of wage earners; last two bars: % of those whose workplace uses AI",
+        [('*AI is used at their workplace', 45), ('Of those: AI improved their own efficiency', 45), ('Of those: AI replaced some work tasks', 18)],
     ),
     "nbp": (
         "Polish enterprises using AI tools",
@@ -388,9 +390,10 @@ def timeline(kind, points):
     ax.set_ylim(0, 10 * (int(top * 1.18) // 10 + 1))
     ax.set_xlim(date(2024, 1, 1), date(2027, 5, 31))
 
-    # Line joining, in date order, all surveys with the same country coverage (same symbol)
-    for coverage in COVERAGE:
-        group = sorted((p for p in points if p["coverage"] == coverage), key=lambda p: p["when"])
+    # Line joining, in date order, the waves of one survey (same `series` in the page header).
+    # Different surveys are never joined: their definitions and populations differ.
+    for series in sorted({p["series"] for p in points if p["series"]}):
+        group = sorted((p for p in points if p["series"] == series), key=lambda p: p["when"])
         if len(group) > 1:
             ax.plot([p["when"] for p in group], [p["value"] for p in group], color=colour, lw=2.4,
                     alpha=0.4, solid_capstyle="round", solid_joinstyle="round", zorder=2)

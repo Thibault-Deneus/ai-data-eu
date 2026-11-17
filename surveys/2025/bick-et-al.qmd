@@ -6,7 +6,7 @@ who: "Bick, Blandin, Deming, Fuchs-Schündeln and Jessen (academic survey)"
 when: "2025"
 where: "Germany, France, Italy, Netherlands, Sweden (plus UK and US)"
 asked: "Workers"
-sample: "About 5,000 per country, employed, aged 18 to 67"
+sample: "About 5,000 per country, employed, aged 18 to 67 (18 to 63 in France)"
 question: "\"Do you use Generative AI for your job?\""
 month: "2025-06"
 adoption-workers: 30.0

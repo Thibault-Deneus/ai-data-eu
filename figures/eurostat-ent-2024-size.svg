@@ -6,11 +6,11 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-16T15:35:31.909121</dc:date>
+    <dc:date>2026-11-16T20:18:42.589312</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
-      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
      </cc:Agent>
     </dc:creator>
    </cc:Work>
@@ -33,42 +33,42 @@ z
    <g id="line2d_1">
     <path d="M 11.267942 83.767814 
 L 463.932058 83.767814 
-" clip-path="url(#p89df7e99a1)" style="fill: none; stroke: #e9eff5; stroke-width: 9; stroke-linecap: round"/>
+" clip-path="url(#p4773737849)" style="fill: none; stroke: #e9eff5; stroke-width: 9; stroke-linecap: round"/>
    </g>
    <g id="line2d_2">
     <path d="M 11.267942 122.112 
 L 463.932058 122.112 
-" clip-path="url(#p89df7e99a1)" style="fill: none; stroke: #e9eff5; stroke-width: 9; stroke-linecap: round"/>
+" clip-path="url(#p4773737849)" style="fill: none; stroke: #e9eff5; stroke-width: 9; stroke-linecap: round"/>
    </g>
    <g id="line2d_3">
     <path d="M 11.267942 160.456186 
 L 463.932058 160.456186 
-" clip-path="url(#p89df7e99a1)" style="fill: none; stroke: #e9eff5; stroke-width: 9; stroke-linecap: round"/>
+" clip-path="url(#p4773737849)" style="fill: none; stroke: #e9eff5; stroke-width: 9; stroke-linecap: round"/>
    </g>
    <g id="line2d_4">
     <path d="M 11.267942 198.800372 
 L 463.932058 198.800372 
-" clip-path="url(#p89df7e99a1)" style="fill: none; stroke: #e9eff5; stroke-width: 9; stroke-linecap: round"/>
+" clip-path="url(#p4773737849)" style="fill: none; stroke: #e9eff5; stroke-width: 9; stroke-linecap: round"/>
    </g>
    <g id="line2d_5">
     <path d="M 11.267942 83.767814 
 L 62.74921 83.767814 
-" clip-path="url(#p89df7e99a1)" style="fill: none; stroke: #e2703a; stroke-width: 9; stroke-linecap: round"/>
+" clip-path="url(#p4773737849)" style="fill: none; stroke: #e2703a; stroke-width: 9; stroke-linecap: round"/>
    </g>
    <g id="line2d_6">
     <path d="M 11.267942 122.112 
 L 52.08192 122.112 
-" clip-path="url(#p89df7e99a1)" style="fill: none; stroke: #1f4e79; stroke-width: 9; stroke-linecap: round"/>
+" clip-path="url(#p4773737849)" style="fill: none; stroke: #1f4e79; stroke-width: 9; stroke-linecap: round"/>
    </g>
    <g id="line2d_7">
     <path d="M 11.267942 160.456186 
-L 97.070054 160.456186 
-" clip-path="url(#p89df7e99a1)" style="fill: none; stroke: #1f4e79; stroke-width: 9; stroke-linecap: round"/>
+L 97.53385 160.456186 
+" clip-path="url(#p4773737849)" style="fill: none; stroke: #1f4e79; stroke-width: 9; stroke-linecap: round"/>
    </g>
    <g id="line2d_8">
     <path d="M 11.267942 198.800372 
-L 190.756685 198.800372 
-" clip-path="url(#p89df7e99a1)" style="fill: none; stroke: #1f4e79; stroke-width: 9; stroke-linecap: round"/>
+L 191.22048 198.800372 
+" clip-path="url(#p4773737849)" style="fill: none; stroke: #1f4e79; stroke-width: 9; stroke-linecap: round"/>
    </g>
    <g id="text_1">
     <!-- All -->
@@ -535,44 +535,11 @@ z
     </g>
    </g>
    <g id="text_6">
-    <!-- 20.9% -->
-    <g style="fill: #1f4e79" transform="translate(437.745022 149.740209) scale(0.115 -0.115)">
-     <defs>
-      <path id="FiraSans-Bold-30" d="M 1875 4416 
-C 813 4416 243 3610 243 2157 
-C 243 710 813 -109 1875 -109 
-C 2938 -109 3507 710 3507 2157 
-C 3507 3610 2938 4416 1875 4416 
-z
-M 1875 3667 
-C 2291 3667 2470 3334 2470 2157 
-C 2470 986 2291 640 1875 640 
-C 1453 640 1280 1011 1280 2157 
-C 1280 3302 1453 3667 1875 3667 
-z
-" transform="scale(0.015625)"/>
-      <path id="FiraSans-Bold-39" d="M 1773 4416 
-C 870 4416 166 3827 166 2925 
-C 166 2035 730 1498 1402 1498 
-C 1811 1498 2086 1658 2298 1907 
-C 2125 1139 1574 787 486 525 
-L 691 -179 
-C 2541 198 3386 973 3386 2739 
-C 3386 3725 2842 4416 1773 4416 
-z
-M 1715 2208 
-C 1421 2208 1184 2394 1184 2957 
-C 1184 3443 1414 3693 1773 3693 
-C 2202 3693 2362 3405 2349 2586 
-C 2182 2336 1958 2208 1715 2208 
-z
-" transform="scale(0.015625)"/>
-     </defs>
+    <!-- 21% -->
+    <g style="fill: #1f4e79" transform="translate(448.335803 149.740209) scale(0.115 -0.115)">
      <use xlink:href="#FiraSans-Bold-32"/>
-     <use xlink:href="#FiraSans-Bold-30" transform="translate(51.699997 0)"/>
-     <use xlink:href="#FiraSans-Bold-2e" transform="translate(110.199982 0)"/>
-     <use xlink:href="#FiraSans-Bold-39" transform="translate(134.199966 0)"/>
-     <use xlink:href="#FiraSans-Bold-25" transform="translate(190.199951 0)"/>
+     <use xlink:href="#FiraSans-Bold-31" transform="translate(51.699997 0)"/>
+     <use xlink:href="#FiraSans-Bold-25" transform="translate(98.099991 0)"/>
     </g>
    </g>
    <g id="text_7">
@@ -662,8 +629,8 @@ z
     </g>
    </g>
    <g id="text_8">
-    <!-- 41.1% -->
-    <g style="fill: #1f4e79" transform="translate(439.687444 188.084395) scale(0.115 -0.115)">
+    <!-- 41.2% -->
+    <g style="fill: #1f4e79" transform="translate(439.078303 188.084395) scale(0.115 -0.115)">
      <defs>
       <path id="FiraSans-Bold-34" d="M 3482 1690 
 L 2995 1690 
@@ -687,8 +654,8 @@ z
      <use xlink:href="#FiraSans-Bold-34"/>
      <use xlink:href="#FiraSans-Bold-31" transform="translate(56.499985 0)"/>
      <use xlink:href="#FiraSans-Bold-2e" transform="translate(102.899979 0)"/>
-     <use xlink:href="#FiraSans-Bold-31" transform="translate(126.899963 0)"/>
-     <use xlink:href="#FiraSans-Bold-25" transform="translate(173.299957 0)"/>
+     <use xlink:href="#FiraSans-Bold-32" transform="translate(126.899963 0)"/>
+     <use xlink:href="#FiraSans-Bold-25" transform="translate(178.59996 0)"/>
     </g>
    </g>
   </g>
@@ -947,6 +914,19 @@ L 2822 768
 L 1254 768 
 L 2790 2688 
 L 2790 3398 
+z
+" transform="scale(0.015625)"/>
+     <path id="FiraSans-Bold-30" d="M 1875 4416 
+C 813 4416 243 3610 243 2157 
+C 243 710 813 -109 1875 -109 
+C 2938 -109 3507 710 3507 2157 
+C 3507 3610 2938 4416 1875 4416 
+z
+M 1875 3667 
+C 2291 3667 2470 3334 2470 2157 
+C 2470 986 2291 640 1875 640 
+C 1453 640 1280 1011 1280 2157 
+C 1280 3302 1453 3667 1875 3667 
 z
 " transform="scale(0.015625)"/>
     </defs>
@@ -1250,7 +1230,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p89df7e99a1">
+  <clipPath id="p4773737849">
    <rect x="5.7024" y="56.16" width="463.7952" height="164.88"/>
   </clipPath>
  </defs>

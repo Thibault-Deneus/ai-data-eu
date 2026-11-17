@@ -17,4 +17,4 @@ A list of surveys on artificial intelligence run in Europe, kept by DG EMPL and 
 {{< include figures/adoption-firms.inline.html >}}
 ```
 
-Each dot is one survey; click a dot to open its page. Surveys define AI and their target population differently, so levels are not directly comparable across surveys.
+Each dot is one survey wave, and lines join the waves of the same survey; click a dot to open its page. Surveys define AI and their target population differently, so levels are not directly comparable across surveys.

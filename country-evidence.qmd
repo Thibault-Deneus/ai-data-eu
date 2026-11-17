@@ -13,9 +13,9 @@ National surveys with their own AI questions, from central banks, statistical of
 
 ![](figures/ifo-trend.svg){fig-alt="Share of German firms using AI: 13.3% in 2023, 27% in 2024, 40.9% in 2025, 54.5% in 2026."}
 
-**[Bundesbank Online Panel Firms](https://www.bundesbank.de/en/bundesbank/research/survey-of-firms-bop-f/results-of-previous-surveys-831646)** · Deutsche Bundesbank · April to June 2025 · Firms, more than 7,000. "Has your enterprise already used generative artificial intelligence (AI) or is it planning to use it in future?"
+**[Bundesbank Online Panel Firms](https://publikationen.bundesbank.de/publikationen-en/reports-studies/monthly-reports/monthly-report-march-2026-991174)** · Deutsche Bundesbank, Monthly Report March 2026, box "Generative AI in German enterprises: adoption, costs and expected economic impact" (pp. 109-110) · April to June 2025 · Firms, more than 7,000. "Has your enterprise already used generative artificial intelligence (AI) or is it planning to use it in future?", asked for 2024, 2025 and 2026.
 
-![](figures/bundesbank-genai.svg){fig-alt="German firms using or planning to use generative AI: 26% for 2024, 44% for 2025, 56% for 2026."}
+![](figures/bundesbank-genai.svg){fig-alt="German firms using or planning to use generative AI, all asked in the second quarter of 2025: 26% for 2024, 44% for 2025 and 56% for 2026."}
 
 **[IAB Establishment Panel](https://doku.iab.de/kurzber/2026/kb2026-08.pdf)** · Institute for Employment Research · July to November 2025 · Firms, about 15,000 establishments of all sizes. Asks whether the establishment uses generative AI, and since when.
 
@@ -73,7 +73,7 @@ National surveys with their own AI questions, from central banks, statistical of
 
 **[Working Life Barometer 2025](https://valtioneuvosto.fi/-/1410877/tyoolobarometri-palkansaajat-varovaisen-myonteisia-tekoalyn-kaytosta-tyopaikoilla)** · Ministry of Economic Affairs and Employment, data collected by Statistics Finland · autumn 2025 · Workers, wage earners aged 18 to 64. Asks whether AI technology is used at the respondent's workplace, and with what effects.
 
-![](figures/tem-barometer.svg){fig-alt="Finnish wage earners, autumn 2025: 45% say AI is used at their workplace, 45% say it improved their own efficiency, 18% say it replaced some work tasks."}
+![](figures/tem-barometer.svg){fig-alt="Finnish wage earners, autumn 2025: 45% say AI is used at their workplace. Of those, 45% say it improved their own efficiency and 18% say it replaced some work tasks."}
 
 ## Poland
 
